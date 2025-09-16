@@ -1,0 +1,73 @@
+:root {
+  --color-primary: #d8dfd8;
+  --color-secondary: #e7e9e7;
+  --font-family: "Times New Roman";
+}
+
+body {
+  font-family: var(--font-family);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+}
+
+.formulario {
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  border-radius: 20%;
+  border: 0 solid;
+  box-shadow: 2px 2px 0;
+  background-color: var(--color-secondary);
+}
+
+.formulario > input {
+  margin-bottom: 2vh;
+  outline-style: none;
+}
+
+.formulario > button {
+  padding: 10px;
+  border: 0;
+  border-radius: 25%;
+  box-shadow: 2px 2px 0;
+}
+
+#cartel {
+  width: 100vw;
+  display: none;
+  flex-direction: column;
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  background-color: #d8dfd8;
+}
+
+#imagenSaludo {
+  width: auto;
+  height: 30vh;
+}
+
+#out {
+  margin-top: 2vh;
+  padding: 2vh;
+  font-size: large;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 2px 0 #5a5c5a;
+}
+
+.font-red {
+  color: red;
+}
+.font-green {
+  color: green;
+}
